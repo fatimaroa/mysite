@@ -1,0 +1,196 @@
+
+/********************* TAG SELECTORS *********************/
+
+a {
+  color: #494ca2;
+}
+
+a:hover {
+  color: #c6cbef;
+}
+
+body {
+  font-size: 20px;
+  margin: 0;
+  text-align: center;
+}
+
+div {
+  margin: 0;
+}
+
+h1 {
+  color: #8186d5;
+  font-family: 'Satisfy', rage, cursive;
+  font-size: 120px;
+  margin: 0 auto;
+}
+
+h2 {
+  color: #8186d5;
+  font-family: sans-serif;
+  font-size: 2.5rem;
+  font-weight: normal;
+}
+
+h3 {
+  color: #494ca2;
+  font-family: sans-serif;
+}
+
+hr {
+  border-style: none;
+  border-top: 10px dotted #e3e7f1;
+  margin: 50px auto;
+  width: 5%;
+}
+
+
+
+/****************************** CLASS SELECTORS *******************************/
+/********************* TOP CONTAINER *********************/
+.subtitle {
+  font-weight: normal;
+}
+
+.sub-title {
+  color: #be5683;
+  font-size: 2rem;
+}
+
+.pro {
+  text-decoration: underline;
+}
+
+.top-container {
+  background-color: #e3e7f1;
+  padding-top: 150px;
+  position: relative;
+}
+
+.top-cloud {
+  position: absolute;
+  right: 300px;
+  top: 50px;
+}
+
+.bottom-cloud {
+  position: absolute;
+  left: 300px;
+  bottom: 300px;
+}
+
+
+/********************* MIDDLE CONTAINER *********************/
+/****** PROFILE *******/
+.profile {
+  line-height: 2;
+  margin: 100px auto;
+  width: 30%;
+}
+
+
+/****** SKILLS *******/
+.skills {
+  margin: 100px auto;
+}
+
+.skill-row {
+  line-height: 2;
+  margin: 100px auto;
+  text-align: left;
+  width: 50%;
+}
+
+.artist-img {
+  border-radius: 50%;
+  float: left;
+  margin-right: 30px;
+  width: 25%;
+}
+
+.code-img {
+  border-radius: 50%;
+  float: right;
+  margin-left: 30px;
+  width: 25%;
+}
+
+
+/****** CONTACT ME *******/
+.contact-me {
+  line-height: 2;
+  margin: 100px auto;
+  width: 40%;
+}
+
+.btn {
+   background: #494CA2;
+   background-image: -webkit-linear-gradient(top, #494CA2, #8186d5);
+   background-image: -moz-linear-gradient(top, #494CA2, #8186d5);
+   background-image: -ms-linear-gradient(top, #494CA2, #8186d5);
+   background-image: -o-linear-gradient(top, #494CA2, #8186d5);
+   background-image: -webkit-gradient(to bottom, #494CA2, #8186d5);
+   -webkit-border-radius: 12px;
+   -moz-border-radius: 12px;
+   border-radius: 12px;
+   color: #FFFFFF;
+   font-family: sans-serif;
+   font-size: 20px;
+   font-weight: 500;
+   padding: 10px 20px;
+   text-shadow: 1px 1px 20px #000000;
+   text-decoration: none;
+   display: inline-block;
+   cursor: pointer;
+   text-align: center;
+   margin: 50px auto;
+}
+
+.btn:hover {
+   background: #FFFFFF;
+   background-image: -webkit-linear-gradient(top, #8186d5, #494CA2);
+   background-image: -moz-linear-gradient(top, #8186d5, #494CA2);
+   background-image: -ms-linear-gradient(top, #8186d5, #494CA2);
+   background-image: -o-linear-gradient(top, #8186d5, #494CA2);
+   background-image: -webkit-gradient(to bottom, #8186d5, #494CA2);
+   -webkit-border-radius: 12px;
+   -moz-border-radius: 12px;
+   border-radius: 12px;
+   color: #FFFFFF;
+   text-decoration: none;
+}
+
+
+
+/********************* BOTTOM CONTAINER *********************/
+
+.bottom-container {
+  background-color: #8186d5;
+  height: 100px;
+  padding: 50px 0 30px 0;
+}
+
+.footer-link {
+  font-family: sans-serif;
+  font-size: 18px;
+  margin: 50px 20px;
+  text-decoration: none;
+}
+
+.copyright {
+  color: #e3e7f1;
+  font-size: 14px;
+  margin: 30px auto;
+}
+
+
+
+
+
+
+
+
+
+
+/********************* END *********************/
